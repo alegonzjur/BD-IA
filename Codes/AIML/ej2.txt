@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<!--
+	<category>
+	    <pattern>HOLA</pattern>
+	    <template>Hola! 😊</template>
+	</category>
+	<category>
+	    <pattern>ADIOS</pattern>
+	    <template>Adios 😉</template>
+	</category>
+	<category>
+	    <pattern>HOLA, ME LLAMO *</pattern>
+	    <template>Hola <star/></template>
+	</category>
+	-->
+	<category>
+	    <pattern>HOLA, ME LLAMO *</pattern>
+	    <template>Hola <set name="nombre"><star /></set></template>
+	</category>
+		<category>
+	    <pattern>TE GUSTA MI NOMBRE</pattern>
+	    <template><get name="nombre"></get> es un nombre muy bonito</template>
+	</category>
+	<category>
+	    <pattern>EN SERIO</pattern>
+	    <that>* ES UN NOMBRE MUY BONITO</that>
+	    <template>Por supuesto</template>
+	</category>
+</aiml>

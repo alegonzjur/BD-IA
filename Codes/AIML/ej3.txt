@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>TE GUSTAN LOS VIDEOJUEGOS</pattern>
+	    <template>Si, me encanta el LoL.</template>
+	</category>
+	<category>
+		<pattern>Y QUE MAS</pattern>
+	    <template><srai>Y QUÉ MÁS</srai></template>
+	</category>
+	<category>
+	    <pattern>Y QUE MAS</pattern>
+	    <that>Si, me encanta el LoL.</that>
+	    <template>Me gusta comer hasta reventar.</template>
+	</category>
+	<category>
+	    <pattern>A MI NO ME GUSTA</pattern>
+	    <that>Si, me encanta el LoL.</that>
+	    <template>Esque es para gente lista.</template>
+	</category>
+</aiml>

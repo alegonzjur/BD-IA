@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>CUANTO CUESTA UN *</pattern>
+	    <template>
+	        <think>
+	            <set name="objeto"><star /></set>
+	        </think>
+	        <condition name="objeto" value="ordenador">600€</condition>
+	        <condition name="objeto" value="refresco">2€</condition>
+	        <condition name="objeto" value="teclado">20€</condition>
+	        <condition name="objeto" value="teclado de Marcelo">180€</condition>
+	        <condition name="objeto">
+	            <li value="helado">1,5€</li>
+	            <li value="polo">0.2€</li>
+	            <li value="jamon">2,5€</li>
+	            <li value="monitor">80€</li>
+	        </condition>
+	    </template>
+	</category>
+</aiml>

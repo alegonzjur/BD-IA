@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here 
+	<category>
+	    <pattern>APRENDE PREGUNTA * RESPUESTA *</pattern>
+	    <template>
+	        <think>
+	            <learn>
+	                <category>
+	                    <pattern><eval><star index="1" /></eval></pattern>
+	                    <template><eval><star index="2" /></eval></template>
+	                </category>
+	            </learn>
+	        </think>
+	        Vale, responderé con "<star index="2" />" a la pregunta "<star index="1" />" la proxima vez.
+	        
+	    </template>
+	</category>
+	-->
+</aiml>

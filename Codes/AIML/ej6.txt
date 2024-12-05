@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>CÓMO SE DICE * EN INGLÉS</pattern>
+	    <template>No sé cómo se dice <star /> en inglés, me enseñas cómo?</template>
+	</category>
+	<category>
+	    <pattern>* SE DICE * EN INGLÉS</pattern>
+	    <that>No sé cómo se dice * en inglés, me enseñas cómo</that>
+	    <template>
+	        <think>
+	            <learn>
+	                <category>
+	                    <pattern>CÓMO SE DICE <eval><star index="1" /></eval>EN INGLÉS</pattern>
+	                    <template><eval><star index="2" /></eval></template>
+	                </category>
+	            </learn>
+	        </think>
+	        Genial, lo recordaré para la próxima vez.
+	    </template>
+	</category>
+</aiml>
